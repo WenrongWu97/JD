@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>注册表单</title>
+<link href="css/form.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<form action="registerSuccess.html" method="post" target="_blank">
+		<ul>
+			<li>
+				<div style="letter-spacing: 10px;">用户名</div>
+				<input type="text" name="userName" placeholder="您的账户名和登录名" autofocus />
+			</li>
+			<li>
+				<div style="letter-spacing: 3px;">设置密码</div>
+				<input type="password" name="password" placeholder="建议至少使用两种字符组合" />
+			</li>
+			<li>
+				<div style="letter-spacing: 3px;">确认密码</div>
+				<input type="password" name="repassword" placeholder="请再次输入密码" />
+			</li>
+			<li>
+				<div>中国 0086</div>
+				<input type="text" name="phone" placeholder="建议使用常用手机" />
+			</li>
+			<li>
+				<div>手机验证码</div>
+				<input style="width: 180px;" type="text" name="validateCode" placeholder="手机验证码" />
+				<input type="button" value="获取验证码" />
+			</li>
+			<li style="border: none;">
+				<input type="submit" value="立即注册" />
+			</li>
+		</ul>
+	</form>
+</body>
+</html>
